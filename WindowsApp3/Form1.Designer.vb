@@ -22,36 +22,9 @@ Partial Class Form1
     '不要使用代码编辑器修改它。
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.DateTimePicker1 = New System.Windows.Forms.DateTimePicker()
-        Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.SuspendLayout()
-        '
-        'DateTimePicker1
-        '
-        Me.DateTimePicker1.Location = New System.Drawing.Point(46, 60)
-        Me.DateTimePicker1.Name = "DateTimePicker1"
-        Me.DateTimePicker1.Size = New System.Drawing.Size(200, 25)
-        Me.DateTimePicker1.TabIndex = 0
-        '
-        'MonthCalendar1
-        '
-        Me.MonthCalendar1.Location = New System.Drawing.Point(228, 208)
-        Me.MonthCalendar1.Name = "MonthCalendar1"
-        Me.MonthCalendar1.TabIndex = 1
-        '
-        'Form1
-        '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 15.0!)
+        components = New System.ComponentModel.Container()
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(899, 664)
-        Me.Controls.Add(Me.MonthCalendar1)
-        Me.Controls.Add(Me.DateTimePicker1)
-        Me.Name = "Form1"
         Me.Text = "Form1"
-        Me.ResumeLayout(False)
-
     End Sub
 
-    Friend WithEvents DateTimePicker1 As DateTimePicker
-    Friend WithEvents MonthCalendar1 As MonthCalendar
 End Class
